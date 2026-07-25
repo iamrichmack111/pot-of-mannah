@@ -1,0 +1,11 @@
+version: '3'
+services:
+  flask_app:
+    image: pot-of-mannah
+    container_name: flask_app
+    command: flask run --host=0.0.0.0 --port=5000
+    ports:
+      - "5100:5000"
+    volumes:
+      - .:/app  # Mount current directory to /app in the container
+    restart: always

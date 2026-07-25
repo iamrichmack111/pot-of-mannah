@@ -1,0 +1,1236 @@
+cleaned_gym_exercise_dataset.csv:1: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:1: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:2: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:2: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:3: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:3: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:4: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:4: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:5: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:5: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:6: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:6: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:7: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:7: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:8: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:8: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:9: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:9: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:10: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:10: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:11: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:11: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:12: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:12: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:13: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:13: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:14: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:14: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:15: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:15: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:16: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:16: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:17: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:17: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:18: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:18: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:19: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:19: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:20: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:20: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:21: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:21: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:22: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:22: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:23: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:23: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:24: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:24: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:25: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:25: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:26: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:26: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:27: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:27: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:28: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:28: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:29: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:29: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:30: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:30: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:31: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:31: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:32: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:32: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:33: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:33: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:34: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:34: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:35: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:35: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:36: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:36: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:37: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:37: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:38: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:38: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:39: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:39: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:40: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:40: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:41: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:41: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:42: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:42: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:43: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:43: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:44: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:44: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:45: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:45: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:46: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:46: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:47: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:47: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:48: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:48: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:49: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:49: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:50: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:50: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:51: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:51: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:52: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:52: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:53: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:53: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:54: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:54: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:55: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:55: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:56: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:56: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:57: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:57: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:58: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:58: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:59: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:59: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:60: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:60: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:61: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:61: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:62: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:62: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:63: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:63: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:64: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:64: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:65: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:65: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:66: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:66: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:67: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:67: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:68: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:68: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:69: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:69: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:70: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:70: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:71: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:71: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:72: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:72: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:73: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:73: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:74: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:74: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:75: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:75: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:76: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:76: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:77: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:77: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:78: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:78: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:79: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:79: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:80: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:80: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:81: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:81: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:82: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:82: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:83: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:83: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:84: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:84: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:85: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:85: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:86: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:86: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:87: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:87: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:88: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:88: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:89: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:89: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:90: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:90: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:91: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:91: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:92: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:92: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:93: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:93: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:94: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:94: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:95: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:95: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:96: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:96: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:97: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:97: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:98: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:98: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:99: expected 18 columns but found 25 - extras ignored
+cleaned_gym_exercise_dataset.csv:99: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:101: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:101: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:102: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:102: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:103: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:103: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:104: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:104: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:105: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:105: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:106: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:106: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:107: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:107: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:108: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:108: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:109: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:109: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:110: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:110: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:111: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:111: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:112: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:112: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:113: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:113: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:114: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:114: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:115: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:115: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:116: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:116: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:117: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:117: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:118: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:118: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:119: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:119: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:120: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:120: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:121: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:121: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:122: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:122: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:123: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:123: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:124: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:124: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:125: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:125: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:126: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:126: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:127: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:127: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:128: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:128: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:129: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:129: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:130: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:130: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:131: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:131: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:132: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:132: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:133: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:133: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:134: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:134: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:135: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:135: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:136: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:136: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:137: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:137: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:138: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:138: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:139: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:139: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:140: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:140: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:141: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:141: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:142: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:142: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:143: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:143: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:144: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:144: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:145: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:145: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:146: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:146: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:147: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:147: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:148: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:148: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:149: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:149: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:150: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:150: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:151: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:151: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:152: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:152: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:153: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:153: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:154: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:154: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:155: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:155: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:156: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:156: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:157: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:157: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:158: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:158: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:159: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:159: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:160: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:160: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:161: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:161: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:162: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:162: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:163: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:163: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:164: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:164: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:165: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:165: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:166: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:166: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:167: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:167: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:168: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:168: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:169: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:169: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:170: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:170: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:171: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:171: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:172: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:172: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:173: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:173: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:174: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:174: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:175: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:175: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:176: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:176: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:177: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:177: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:178: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:178: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:179: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:179: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:180: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:180: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:181: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:181: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:182: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:182: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:183: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:183: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:188: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:188: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:189: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:189: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:190: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:190: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:191: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:191: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:192: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:192: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:193: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:193: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:194: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:194: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:195: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:195: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:196: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:196: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:197: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:197: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:198: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:198: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:199: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:199: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:200: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:200: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:201: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:201: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:202: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:202: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:203: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:203: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:204: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:204: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:205: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:205: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:206: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:206: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:207: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:207: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:208: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:208: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:209: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:209: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:210: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:210: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:211: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:211: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:212: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:212: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:213: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:213: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:214: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:214: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:215: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:215: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:216: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:216: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:217: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:217: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:218: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:218: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:219: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:219: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:220: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:220: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:221: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:221: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:222: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:222: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:223: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:223: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:224: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:224: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:225: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:225: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:226: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:226: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:227: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:227: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:228: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:228: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:229: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:229: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:230: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:230: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:231: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:231: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:232: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:232: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:233: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:233: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:234: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:234: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:235: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:235: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:236: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:236: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:237: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:237: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:238: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:238: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:239: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:239: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:240: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:240: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:241: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:241: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:242: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:242: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:243: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:243: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:244: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:244: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:245: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:245: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:246: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:246: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:247: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:247: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:248: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:248: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:249: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:249: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:250: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:250: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:251: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:251: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:252: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:252: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:253: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:253: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:254: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:254: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:255: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:255: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:256: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:256: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:257: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:257: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:258: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:258: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:259: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:259: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:260: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:260: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:261: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:261: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:262: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:262: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:263: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:263: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:264: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:264: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:265: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:265: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:266: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:266: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:267: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:267: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:268: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:268: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:269: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:269: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:270: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:270: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:271: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:271: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:272: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:272: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:273: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:273: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:274: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:274: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:275: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:275: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:276: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:276: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:277: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:277: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:278: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:278: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:279: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:279: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:280: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:280: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:281: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:281: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:286: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:286: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:287: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:287: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:288: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:288: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:289: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:289: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:290: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:290: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:291: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:291: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:292: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:292: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:293: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:293: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:294: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:294: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:295: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:295: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:296: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:296: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:297: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:297: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:298: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:298: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:299: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:299: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:300: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:300: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:301: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:301: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:302: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:302: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:307: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:307: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:308: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:308: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:309: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:309: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:310: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:310: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:311: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:311: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:312: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:312: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:313: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:313: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:314: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:314: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:315: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:315: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:316: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:316: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:317: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:317: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:318: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:318: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:319: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:319: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:320: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:320: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:321: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:321: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:322: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:322: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:323: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:323: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:324: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:324: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:325: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:325: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:326: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:326: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:327: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:327: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:328: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:328: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:329: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:329: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:330: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:330: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:331: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:331: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:332: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:332: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:333: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:333: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:334: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:334: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:335: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:335: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:336: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:336: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:337: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:337: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:338: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:338: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:339: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:339: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:340: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:340: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:341: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:341: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:342: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:342: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:343: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:343: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:344: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:344: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:345: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:345: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:346: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:346: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:347: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:347: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:348: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:348: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:349: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:349: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:350: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:350: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:351: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:351: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:352: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:352: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:357: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:357: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:358: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:358: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:359: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:359: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:360: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:360: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:361: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:361: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:362: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:362: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:363: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:363: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:364: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:364: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:365: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:365: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:366: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:366: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:367: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:367: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:368: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:368: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:369: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:369: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:370: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:370: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:371: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:371: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:372: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:372: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:373: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:373: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:374: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:374: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:375: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:375: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:376: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:376: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:377: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:377: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:378: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:378: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:379: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:379: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:380: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:380: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:381: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:381: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:382: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:382: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:383: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:383: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:384: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:384: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:385: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:385: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:386: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:386: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:391: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:391: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:392: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:392: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:393: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:393: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:394: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:394: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:395: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:395: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:396: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:396: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:397: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:397: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:398: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:398: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:399: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:399: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:400: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:400: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:401: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:401: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:402: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:402: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:403: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:403: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:404: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:404: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:405: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:405: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:410: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:410: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:411: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:411: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:412: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:412: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:413: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:413: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:414: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:414: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:415: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:415: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:416: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:416: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:417: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:417: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:418: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:418: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:419: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:419: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:420: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:420: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:421: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:421: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:422: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:422: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:423: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:423: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:424: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:424: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:425: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:425: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:426: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:426: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:427: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:427: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:428: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:428: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:433: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:433: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:434: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:434: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:435: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:435: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:436: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:436: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:437: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:437: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:438: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:438: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:439: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:439: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:440: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:440: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:441: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:441: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:442: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:442: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:443: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:443: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:444: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:444: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:445: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:445: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:446: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:446: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:447: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:447: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:448: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:448: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:449: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:449: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:450: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:450: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:451: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:451: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:452: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:452: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:453: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:453: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:454: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:454: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:455: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:455: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:456: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:456: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:457: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:457: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:458: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:458: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:459: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:459: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:460: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:460: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:461: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:461: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:462: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:462: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:463: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:463: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:464: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:464: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:465: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:465: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:466: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:466: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:467: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:467: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:468: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:468: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:469: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:469: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:470: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:470: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:471: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:471: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:472: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:472: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:473: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:473: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:474: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:474: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:475: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:475: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:476: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:476: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:477: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:477: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:478: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:478: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:479: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:479: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:480: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:480: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:481: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:481: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:482: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:482: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:483: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:483: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:484: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:484: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:490: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:490: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:495: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:495: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:500: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:500: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:506: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:506: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:511: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:511: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:512: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:512: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:518: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:518: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:519: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:519: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:520: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:520: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:521: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:521: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:522: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:522: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:523: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:523: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:524: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:524: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:525: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:525: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:526: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:526: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:527: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:527: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:528: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:528: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:529: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:529: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:530: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:530: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:531: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:531: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:532: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:532: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:533: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:533: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:534: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:534: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:535: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:535: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:536: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:536: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:537: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:537: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:538: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:538: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:539: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:539: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:540: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:540: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:541: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:541: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:542: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:542: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:543: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:543: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:544: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:544: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:545: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:545: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:546: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:546: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:547: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:547: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:548: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:548: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:549: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:549: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:550: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:550: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:551: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:551: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:552: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:552: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:553: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:553: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:554: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:554: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:555: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:555: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:556: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:556: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:557: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:557: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:558: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:558: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:559: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:559: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:560: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:560: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:561: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:561: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:562: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:562: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:563: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:563: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:564: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:564: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:565: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:565: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:566: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:566: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:567: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:567: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:568: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:568: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:569: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:569: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:570: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:570: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:571: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:571: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:572: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:572: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:573: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:573: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:574: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:574: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:575: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:575: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:576: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:576: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:577: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:577: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:578: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:578: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:579: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:579: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:580: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:580: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:581: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:581: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:582: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:582: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:583: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:583: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:584: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:584: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:585: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:585: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:586: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:586: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:587: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:587: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:588: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:588: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:589: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:589: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:590: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:590: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:591: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:591: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:592: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:592: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:593: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:593: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:594: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:594: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:595: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:595: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:596: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:596: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:597: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:597: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:598: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:598: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:599: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:599: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:600: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:600: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:601: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:601: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:602: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:602: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:603: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:603: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:604: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:604: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:605: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:605: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:606: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:606: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:607: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:607: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:608: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:608: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:609: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:609: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:610: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:610: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:611: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:611: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:612: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:612: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:613: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:613: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:614: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:614: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:615: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:615: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:616: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:616: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:617: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:617: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:618: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:618: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:619: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:619: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:620: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:620: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:621: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:621: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:622: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:622: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:623: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:623: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:624: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:624: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:625: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:625: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:626: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:626: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:627: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:627: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:628: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:628: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:629: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:629: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:630: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:630: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:631: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:631: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:632: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:632: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:633: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:633: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:634: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:634: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:635: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:635: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:636: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:636: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:637: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:637: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:638: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:638: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:639: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:639: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:640: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:640: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:641: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:641: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:642: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:642: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:643: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:643: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:644: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:644: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:645: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:645: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:646: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:646: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:647: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:647: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:648: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:648: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:649: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:649: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:650: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:650: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:651: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:651: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:652: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:652: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:653: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:653: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:654: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:654: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:655: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:655: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:656: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:656: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:657: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:657: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:658: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:658: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:659: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:659: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:660: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:660: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:661: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:661: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:662: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:662: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:663: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:663: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:664: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:664: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:665: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:665: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:666: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:666: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:667: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:667: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:668: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:668: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:669: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:669: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:670: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:670: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:671: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:671: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:672: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:672: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:673: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:673: INSERT failed: datatype mismatch
+cleaned_gym_exercise_dataset.csv:674: expected 18 columns but found 17 - filling the rest with NULL
+cleaned_gym_exercise_dataset.csv:674: INSERT failed: datatype mismatch

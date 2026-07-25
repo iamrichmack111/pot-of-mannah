@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pot-of-mannah"
+version = "2.2.0"
+description = "Terminal nutrition and training intelligence over indexed SQLite datasets"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["textual>=0.70", "platformdirs>=4.0"]
+keywords = ["textual", "tui", "nutrition", "fitness", "sqlite", "flask"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "build>=1"]
+api = ["Flask>=2.2", "flask-limiter>=3", "gunicorn>=21"]
+
+[project.scripts]
+pot-of-mannah = "pot_of_mannah.tui:main"
+mannah = "pot_of_mannah.tui:main"
+
+[tool.setuptools.package-data]
+pot_of_mannah = ["data/*.db"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["pot_of_mannah*"]
+exclude = ["DATA*", "POT-OF-MANNAH-API*", "tests*", "scripts*"]

@@ -1,0 +1,19 @@
+jq -R -s 'split("\n") | .[1:] | map(split(",") | {
+  Exercise_Name: .[0],
+  Equipment: .[1],
+  Variation: .[2],
+  Utility: .[3],
+  Mechanics: .[4],
+  Force: .[5],
+  Preparation: .[6],
+  Execution: .[7],
+  Target_Muscles: .[8],
+  Synergist_Muscles: .[9],
+  Stabilizer_Muscles: .[10],
+  Antagonist_Muscles: .[11],
+  Dynamic_Stabilizer_Muscles: .[12],
+  Main_muscle: .[13],
+  Difficulty: .[14],
+  Secondary_Muscles: .[15],
+  parent_id: .[16]
+})' gym_exercise_dataset.csv > gym_exercise_dataset.json
