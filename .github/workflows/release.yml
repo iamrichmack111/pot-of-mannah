@@ -1,0 +1,28 @@
+name: GitHub Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build source archive
+        run: |
+          mkdir -p dist
+          git archive --format=zip --prefix=pot-of-mannah-${GITHUB_REF_NAME}/ -o dist/pot-of-mannah-${GITHUB_REF_NAME}.zip HEAD
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            dist/pot-of-mannah-${{ github.ref_name }}.zip
+            media/demo/pot-of-mannah-demo.mp4
+          fail_on_unmatched_files: false

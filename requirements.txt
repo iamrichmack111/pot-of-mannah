@@ -1,1 +1,5 @@
 textual>=0.70
+Flask>=3.0
+Werkzeug>=3.0
+requests>=2.31
+gunicorn>=22.0

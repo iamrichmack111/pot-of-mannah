@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Log in — Pot of Mannah{% endblock %}
+{% block content %}
+<div class="auth-page">
+  <section class="auth-art">
+    <a class="brand" href="/"><span class="brand-seed">m</span><span><b>Pot of Mannah</b><small>Nutrition journal</small></span></a>
+    <div class="auth-message"><span class="eyebrow">WELCOME BACK</span><h1>Your food journal, without the clutter.</h1><p>Log exact grams, review your day, and see nutrient gaps from one organized place.</p><div class="auth-quote"><p>Today → Diary → Nutrition. Everything has a home.</p></div></div>
+  </section>
+  <section class="auth-form-side"><form method="post" class="auth-form"><span class="eyebrow">LOG IN</span><h2>Continue</h2><p>Username and password only. No email required.</p><label>Username<input name="username" autocomplete="username" required autofocus placeholder="your_username"></label><label>Password<input type="password" name="password" autocomplete="current-password" required placeholder="••••••••"></label><button class="btn primary full" type="submit">Log in</button><span class="auth-switch">New here? <a href="{{url_for('signup')}}">Create an account</a></span></form></section>
+</div>
+{% endblock %}

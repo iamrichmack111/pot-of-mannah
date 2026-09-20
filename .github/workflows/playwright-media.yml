@@ -1,0 +1,72 @@
+name: Playwright Media
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'mannah_web/**'
+      - 'scripts/playwright_capture.py'
+      - 'scripts/seed_demo.py'
+      - '.github/workflows/playwright-media.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install app and Playwright
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt playwright
+          python -m playwright install --with-deps chromium
+      - name: Seed demo database
+        env:
+          MANNAH_WEB_DB: /tmp/mannah-demo.db
+          SECRET_KEY: demo-secret
+        run: python scripts/seed_demo.py
+      - name: Start web app
+        env:
+          MANNAH_WEB_DB: /tmp/mannah-demo.db
+          SECRET_KEY: demo-secret
+          HOST: 127.0.0.1
+          PORT: 8012
+        run: |
+          python web.py >/tmp/mannah-web.log 2>&1 &
+          echo $! > /tmp/mannah-web.pid
+          for i in {1..45}; do
+            curl -fsS http://127.0.0.1:8012/healthz && break
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:8012/healthz
+      - name: Capture screenshots and demo
+        env:
+          BASE_URL: http://127.0.0.1:8012
+        run: python scripts/playwright_capture.py
+      - name: Upload media artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pot-of-mannah-playwright-media
+          path: |
+            media/screenshots/*.png
+            media/demo/*.webm
+            media/demo/*.mp4
+      - name: Commit generated media
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/screenshots media/demo/pot-of-mannah-demo.mp4
+          if git diff --cached --quiet; then
+            echo "Media is already current."
+          else
+            git commit -m "docs: refresh Playwright screenshots and demo [skip ci]"
+            git push
+          fi

@@ -1,1144 +1,186 @@
-# 🍲 Pot of Mannah
+# 🍲 Pot of Mannah v3
 
-> **A keyboard-first nutrition, pantry planning, workout tracking, and micronutrient intelligence TUI.**
+> Local-first nutrition intelligence with a dark tabbed web app, a keyboard-first Textual TUI, exact gram logging, 7,000+ foods, nutrient-gap analysis, Playwright media automation, and Docker deployment.
 
-Pot of Mannah is a terminal-based health and nutrition application built with **Python**, **Textual**, and **SQLite**.
+[![CI](https://github.com/iamrichmack111/pot-of-mannah/actions/workflows/ci.yml/badge.svg)](https://github.com/iamrichmack111/pot-of-mannah/actions/workflows/ci.yml)
+[![Playwright Media](https://github.com/iamrichmack111/pot-of-mannah/actions/workflows/playwright-media.yml/badge.svg)](https://github.com/iamrichmack111/pot-of-mannah/actions/workflows/playwright-media.yml)
+[![Container](https://github.com/iamrichmack111/pot-of-mannah/actions/workflows/container.yml/badge.svg)](https://github.com/iamrichmack111/pot-of-mannah/actions/workflows/container.yml)
+[![PyPI](https://img.shields.io/pypi/v/pot-of-mannah.svg)](https://pypi.org/project/pot-of-mannah/)
+[![Python](https://img.shields.io/badge/python-3.10%2B-3776AB)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/docker-GHCR-2496ED)](https://github.com/iamrichmack111/pot-of-mannah/pkgs/container/pot-of-mannah)
 
-It combines detailed food nutrient data, daily food logging, macro and micronutrient analysis, pantry inventory, pantry-based menu generation, exercise tracking, workout logging, notes, goals, favorites, and exportable reports in one keyboard-driven interface.
+## What v3 adds
 
----
+Pot of Mannah started as a terminal nutrition and training application. v3 keeps that TUI and adds a full web experience organized around real application tabs:
 
-## ✨ Highlights
+**Today · Diary · Log Food · Nutrition · Planner · Progress · Foods**
 
-- 🥗 Detailed food and nutrient search
-- 📊 Macro and micronutrient tracking
-- 🍽️ Daily meal logging
-- 🧺 Pantry inventory
-- 👨‍🍳 Pantry-based Menu Maker
-- 🏋️ Exercise database
-- 💪 Workout and set logging
-- 📝 Daily, food, and workout notes
-- 🎯 Configurable nutrition goals
-- 🔎 Nutrient-gap analysis
-- ❤️ Favorite foods and exercises
-- 📤 Markdown, CSV, and JSON reports
-- ⌨️ Keyboard-first Textual interface
-- 💾 Local-first SQLite persistence
-- 🧪 Automated tests
-- 🚀 GitHub Actions CI/CD
-- 📦 Published through PyPI
+The web app includes dark themes, animated tab/sub-tab navigation, exact gram logging, per-100 g source transparency, local/global food search, nutrient-gap analysis, meal planning suggestions, hydration, favorites, progress trends, custom foods, and an admin surface.
 
----
+## Screenshot gallery
 
-# 📦 Installation
+The repository's Playwright workflow refreshes these images from a seeded demo account whenever the web UI changes.
 
-## Install from PyPI
-
-Create an isolated Python environment:
-
-```bash
-python3 -m venv ~/.venvs/pot-of-mannah
-source ~/.venvs/pot-of-mannah/bin/activate
-```
-
-Upgrade pip:
-
-```bash
-python -m pip install --upgrade pip
-```
-
-Install Pot of Mannah:
-
-```bash
-pip install pot-of-mannah
-```
-
-Launch:
-
-```bash
-pot-of-mannah
-```
-
-The shorter command is also available:
-
-```bash
-mannah
-```
-
----
-
-## 🔄 Upgrade
-
-Upgrade to the latest release:
-
-```bash
-pip install --upgrade pot-of-mannah
-```
-
-Check the installed version:
-
-```bash
-pip show pot-of-mannah
-```
-
----
-
-# 🖥️ Application
-
-Pot of Mannah separates nutrition, pantry management, exercise, workouts, and notes into dedicated workflows.
-
-```text
-┌─────────────────────────────────────────────────────┐
-│                   POT OF MANNAH                     │
-├─────────────────────────────────────────────────────┤
-│ Dashboard │ Food │ Pantry │ Menu │ Exercise │ Notes │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│                  Application View                   │
-│                                                     │
-├─────────────────────────────────────────────────────┤
-│  ? Help     / Search     E Export     Q Quit        │
-└─────────────────────────────────────────────────────┘
-```
-
-Major application areas include:
-
-```text
-📊 Dashboard
-🥗 Food
-📅 Today
-🧺 Pantry
-🍽️ Menu Maker
-🏋️ Exercise
-💪 Workout
-📝 Notes
-📈 Stats
-🎯 Goals
-```
-
----
-
-# ❓ Contextual Help
-
-Press:
-
-```text
-?
-```
-
-from the application menus to display instructions for the current section.
-
-Common controls include:
-
-| Key | Action |
+| Today | Diary |
 |---|---|
-| `?` | Help / Instructions |
-| `/` | Search |
-| `E` | Export |
-| `Q` | Quit |
-
-Additional controls are displayed according to the active menu.
-
----
-
-# 📊 Dashboard
-
-The Dashboard summarizes today's nutrition and activity.
-
-Example:
-
-```text
-TODAY
-────────────────────────────────
-
-Calories       1,740 / 2,200
-Protein          126 / 160 g
-Carbs            181 / 240 g
-Fat               54 / 75 g
-Fiber             24 / 30 g
-
-MICRONUTRIENTS
-────────────────────────────────
-
-Vitamin C          92%
-Vitamin A          74%
-Vitamin B12       115%
-Calcium            61%
-Iron               83%
-Magnesium          48%
-Potassium          67%
-
-ACTIVITY
-────────────────────────────────
-
-Workout Sets        12
-Notes                 2
-```
-
-The Dashboard connects nutrition and training statistics without mixing their underlying workflows.
-
----
-
-# 🥗 Food Intelligence
-
-Search thousands of foods and inspect detailed nutritional information.
-
-Pot of Mannah tracks substantially more than calories.
-
-## Macronutrients
-
-- Calories
-- Protein
-- Carbohydrates
-- Total fat
-- Saturated fat
-- Monounsaturated fat
-- Polyunsaturated fat
-- Fiber
-- Sugar
-
-## Minerals
-
-- Calcium
-- Copper
-- Iron
-- Magnesium
-- Manganese
-- Phosphorus
-- Potassium
-- Selenium
-- Sodium
-- Zinc
-
-## Vitamins
-
-- Vitamin A
-- Vitamin B6
-- Vitamin B12
-- Vitamin C
-- Vitamin E
-- Vitamin K
-- Niacin
-- Riboflavin
-- Thiamin
-- Pantothenic acid
-
-Additional nutrient data includes:
-
-```text
-Choline
-Cholesterol
-Carotene
-Lycopene
-Lutein / Zeaxanthin
-Retinol
-Water
-```
-
----
-
-# 🍽️ Daily Food Logging
-
-Foods can be added directly from search results into the daily food log.
-
-Each entry records information including:
-
-```text
-Food
-Meal
-Amount
-Calories
-Protein
-Carbohydrates
-Fat
-Fiber
-Vitamins
-Minerals
-Timestamp
-```
-
-Nutrients are automatically scaled according to the amount consumed.
-
-For example:
-
-```text
-Food: Chicken Breast
-Amount: 150 g
-
-Nutrients stored for 150 g
-rather than only the database's
-original 100 g reference values.
-```
-
-Meals can be categorized as:
-
-- 🌅 Breakfast
-- ☀️ Lunch
-- 🌙 Dinner
-- 🍎 Snack
-- 🍽️ Meal
-
----
-
-# 🧬 Nutrient Snapshots
-
-Pot of Mannah stores a **nutrient snapshot** when food is logged.
-
-This is an important architectural decision.
-
-Instead of historical entries depending on the current reference database:
-
-```text
-Food Database ────────> Historical Report
-```
-
-the application uses:
-
-```text
-Food Database
-      │
-      ▼
-Food Logged
-      │
-      ▼
-Nutrient Snapshot
-      │
-      ▼
-Historical Report
-```
-
-If the packaged food database changes later, previously logged nutrition data remains reproducible.
-
----
-
-# 🔎 Micronutrient Gap Analysis
-
-Pot of Mannah compares daily intake against configured nutrition targets.
-
-Example:
-
-```text
-NUTRIENT COVERAGE
-────────────────────────────────
-
-Magnesium         48%    LOW
-Vitamin E         52%    LOW
-Potassium         61%    LOW
-Calcium           64%    LOW
-
-Iron              87%    OK
-Zinc              91%    OK
-
-Vitamin C        118%    MET
-Vitamin B12      132%    MET
-```
-
-This makes the application useful for more than calorie counting.
-
-Instead of asking only:
-
-```text
-How many calories did I eat?
-```
-
-Pot of Mannah can also help answer:
-
-```text
-Which tracked nutrients are currently
-underrepresented in today's food log?
-```
-
----
-
-# 🧺 Pantry
-
-The Pantry represents food currently available.
-
-Foods can be added to Pantry directly from Food search.
-
-Example:
-
-```text
-PANTRY
-────────────────────────────────
-
-Chicken Breast          850 g
-Brown Rice             1200 g
-Spinach                 400 g
-Eggs                    600 g
-Bananas                 500 g
-Oatmeal                 900 g
-Greek Yogurt            700 g
-```
-
-Pantry quantities can be updated as inventory changes.
-
-The pantry becomes the source of truth for Menu Maker.
-
----
-
-# 👨‍🍳 Menu Maker
-
-Menu Maker generates meal suggestions using **only foods currently available in Pantry**.
-
-It does not simply recommend arbitrary foods from the entire nutrition database.
-
-The workflow is:
-
-```text
-🥗 Food Database
-       │
-       ▼
-🧺 Pantry
-       │
-       ▼
-👨‍🍳 Menu Maker
-       │
-       ▼
-🍽️ Breakfast / Lunch / Dinner
-       │
-       ▼
-📅 Daily Food Log
-       │
-       ▼
-📊 Nutrition Analysis
-```
-
-Generate a menu from the Menu Maker screen:
-
-```text
-M
-```
-
-The planner can create:
-
-```text
-🌅 Breakfast
-☀️ Lunch
-🌙 Dinner
-```
-
-Food selection can consider nutritional characteristics including:
-
-- Calories
-- Protein
-- Fiber
-- Magnesium
-- Potassium
-- Calcium
-- Iron
-- Vitamin C
-- Vitamin E
-
-Log a generated menu:
-
-```text
-L
-```
-
-When pantry-backed menu items are logged, available pantry quantities can be reduced accordingly.
-
----
-
-# ❤️ Favorites
-
-Frequently used foods and exercises can be stored as favorites.
-
-Favorites allow commonly used records to be accessed without repeatedly searching the full reference databases.
-
-Examples:
-
-```text
-Favorite Foods
-──────────────
-Chicken Breast
-Eggs
-Oatmeal
-Brown Rice
-Spinach
-
-Favorite Exercises
-──────────────────
-Bench Press
-Squat
-Pull-Up
-Barbell Row
-Overhead Press
-```
-
----
-
-# 🏋️ Exercise Intelligence
-
-Nutrition and exercise are intentionally kept in separate application sections.
-
-Search exercises by:
-
-```text
-Exercise Name
-Muscle
-Equipment
-```
-
-Exercise records can contain:
-
-```text
-Name
-Primary Muscle
-Secondary Muscles
-Equipment
-Difficulty
-Mechanics
-Force
-Preparation
-Execution
-```
-
-Example:
-
-```text
-BARBELL BENCH PRESS
-────────────────────────────────
-
-Primary Muscle
-Pectoralis Major
-
-Secondary Muscles
-Triceps
-Anterior Deltoid
-
-Equipment
-Barbell
-
-Mechanics
-Compound
-
-Difficulty
-Intermediate
-```
-
----
-
-# 💪 Workout Logging
-
-Exercises can be added to the workout log.
-
-Workout sets support:
-
-```text
-Exercise
-Set Number
-Weight
-Repetitions
-Notes
-Timestamp
-```
-
-Example:
-
-```text
-BENCH PRESS
-────────────────────────────────
-
-Set 1    135 lb × 10
-Set 2    155 lb × 8
-Set 3    175 lb × 6
-```
-
-This creates persistent workout history independently of the reference exercise database.
-
----
-
-# 📝 Notes
-
-Not every useful health or training observation is numerical.
-
-Pot of Mannah therefore includes persistent notes.
-
-Note categories include:
-
-```text
-📝 General
-🥗 Food
-🏋️ Workout
-📓 Daily Journal
-```
-
-Example:
-
-```text
-July 25
-
-Energy was high today.
-
-Chicken and rice lunch kept me full longer.
-
-Left shoulder felt tight during incline press.
-```
-
-Notes remain available across application restarts.
-
----
-
-# 🎯 Goals
-
-Nutrition goals are configurable.
-
-Tracked goals can include:
-
-```text
-Calories
-Protein
-Carbohydrates
-Fat
-Fiber
-
-Calcium
-Iron
-Magnesium
-Potassium
-Zinc
-Selenium
-
-Vitamin A
-Vitamin B6
-Vitamin B12
-Vitamin C
-Vitamin E
-Vitamin K
-
-Choline
-```
-
-Nutrition requirements can vary between individuals.
-
-Pot of Mannah therefore treats these values as **configurable tracking targets**, not universal medical recommendations.
-
----
-
-# 📤 Reports and Export
-
-Pot of Mannah supports report export in:
-
-```text
-📝 Markdown
-📊 CSV
-🔧 JSON
-```
-
-Reports are written to:
-
-```text
-~/Downloads/pot-of-mannah-reports/
-```
-
-Markdown is useful for readable daily reports.
-
-CSV is useful for:
-
-```text
-Excel
-LibreOffice
-Google Sheets
-Python / pandas
-Data analysis
-```
-
-JSON provides structured data suitable for:
-
-```text
-Automation
-APIs
-Scripts
-Data pipelines
-Future integrations
-```
-
----
-
-# 📑 Example Daily Report
-
-```text
-POT OF MANNAH DAILY REPORT
-────────────────────────────────
-
-Date: July 25, 2026
-
-NUTRITION
-
-Calories       2,081 / 2,200
-Protein          154 / 160 g
-Carbs            221 / 240 g
-Fat               67 / 75 g
-
-MICRONUTRIENT GAPS
-
-Magnesium         51%
-Vitamin E         44%
-Potassium         63%
-
-WORKOUT
-
-Bench Press
-175 lb × 6
-155 lb × 8
-
-NOTES
-
-Left shoulder felt tight during incline press.
-```
-
----
-
-# 💾 Data Architecture
-
-Pot of Mannah separates packaged reference datasets from mutable user information.
-
-```text
-                    POT OF MANNAH
-                          │
-              ┌───────────┴───────────┐
-              │                       │
-              ▼                       ▼
-       REFERENCE DATA              USER DATA
-              │                       │
-      ┌───────┴────────┐           mannah.db
-      │                │              │
-      ▼                ▼        ┌─────┼─────────┐
-   food.db        exercise.db    │     │         │
-                                 ▼     ▼         ▼
-                               Food  Workouts   Notes
-                               Logs
-```
-
-Reference databases:
-
-```text
-pot_of_mannah/data/food.db
-pot_of_mannah/data/exercise.db
-```
-
-Personal tracking information is stored separately.
-
-This includes data such as:
-
-```text
-food_log
-workouts
-workout_sets
-notes
-goals
-favorites
-pantry
-meal templates
-workout templates
-```
-
-This keeps the application's reference datasets isolated from user-generated information.
-
----
-
-# 🏗️ Application Architecture
-
-```text
-┌──────────────────────────────────────────────────┐
-│                    TEXTUAL TUI                   │
-│                                                  │
-│ Dashboard │ Food │ Pantry │ Menu │ Exercise     │
-│ Workout   │ Notes │ Stats │ Goals               │
-└────────────────────────┬─────────────────────────┘
-                         │
-                         ▼
-┌──────────────────────────────────────────────────┐
-│              APPLICATION SERVICES                │
-│                                                  │
-│ Search       Tracking       Menu Planning        │
-│ Reports      Goals          Favorites            │
-│ Nutrient Analysis                                │
-└───────────────┬──────────────────┬───────────────┘
-                │                  │
-                ▼                  ▼
-       REFERENCE DATABASES     USER DATABASE
-                │                  │
-       food.db / exercise.db    mannah.db
-```
-
----
-
-# 🛠️ Technology Stack
-
-Pot of Mannah uses:
-
-| Technology | Purpose |
-|---|---|
-| 🐍 Python | Application language |
-| 🖥️ Textual | Terminal user interface |
-| 💾 SQLite | Local data persistence |
-| 🔎 SQL | Search and analytics |
-| 🧪 Pytest | Automated testing |
-| 📦 Setuptools | Python packaging |
-| 🤖 GitHub Actions | CI/CD |
-| 📦 PyPI | Package distribution |
-| 🔐 OIDC | Trusted Publishing |
-
-The repository also preserves earlier **Flask API and Docker** work as part of the project's development history.
-
----
-
-# 📁 Project Structure
-
-```text
-pot-of-mannah/
-│
-├── .github/
-│   └── workflows/
-│       ├── ci.yml
-│       └── publish.yml
-│
-├── pot_of_mannah/
-│   ├── __init__.py
-│   ├── data.py
-│   ├── menu.py
-│   ├── tracker.py
-│   ├── tui.py
-│   │
-│   └── data/
-│       ├── food.db
-│       └── exercise.db
-│
-├── scripts/
-│   └── rebuild_exercise_db.py
-│
-├── tests/
-│   ├── test_data.py
-│   └── test_tracker.py
-│
-├── DATA/
-├── POT-OF-MANNAH-API/
-│
-├── CHANGELOG.md
-├── README.md
-├── install.sh
-├── pyproject.toml
-└── requirements.txt
-```
-
----
-
-# 🧑‍💻 Install From Source
-
-Clone:
-
-```bash
-git clone git@github.com:iamrichmack111/pot-of-mannah.git
-cd pot-of-mannah
-```
-
-Create the environment:
+| ![Today](media/screenshots/01-today.png) | ![Diary](media/screenshots/02-diary.png) |
+| Log Food | Nutrition Needs |
+| ![Log Food](media/screenshots/03-log-food.png) | ![Nutrition](media/screenshots/04-nutrition-missing.png) |
+| Planner | Progress |
+| ![Planner](media/screenshots/05-planner.png) | ![Progress](media/screenshots/06-progress.png) |
+
+**Demo:** [Playwright browser demo](media/demo/pot-of-mannah-demo.mp4)
+
+## Web app
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
+python web.py
 ```
 
-Install:
+Open `http://127.0.0.1:8012`.
+
+LAN access:
 
 ```bash
-python -m pip install --upgrade pip
-pip install -e .
+HOST=0.0.0.0 python web.py
 ```
 
-Launch:
+### Local admin
 
-```bash
-pot-of-mannah
-```
-
----
-
-# 🔧 Development Setup
-
-Clone the project:
-
-```bash
-git clone git@github.com:iamrichmack111/pot-of-mannah.git
-cd pot-of-mannah
-```
-
-Create and activate a virtual environment:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-Install development dependencies:
-
-```bash
-python -m pip install --upgrade pip
-pip install -e '.[dev]'
-```
-
-Run the test suite:
-
-```bash
-pytest -q
-```
-
-Launch the development version:
-
-```bash
-pot-of-mannah
-```
-
----
-
-# 🗃️ Rebuilding Exercise Data
-
-The exercise reference database can be rebuilt deterministically from its canonical dataset.
-
-Run:
-
-```bash
-python scripts/rebuild_exercise_db.py
-```
-
-This provides a reproducible ingestion path rather than depending on a manually constructed SQLite database.
-
----
-
-# 📦 Building the Distribution
-
-Install build tooling:
-
-```bash
-python -m pip install --upgrade build twine
-```
-
-Remove old artifacts:
-
-```bash
-rm -rf build dist *.egg-info
-```
-
-Build:
-
-```bash
-python -m build
-```
-
-Validate:
-
-```bash
-python -m twine check dist/*
-```
-
-A successful build produces files similar to:
+The app seeds a local admin account by default:
 
 ```text
-dist/
-├── pot_of_mannah-2.2.0-py3-none-any.whl
-└── pot_of_mannah-2.2.0.tar.gz
+username: admin
+password: MannahAdmin2026!
 ```
 
----
+Change it immediately for any non-development use, or set `MANNAH_ADMIN_USERNAME` and `MANNAH_ADMIN_PASSWORD` before first startup.
 
-# 🚀 CI/CD
+## Docker
 
-Pot of Mannah uses GitHub Actions.
+```bash
+cp .env.example .env
+# edit SECRET_KEY and MANNAH_ADMIN_PASSWORD
 
-Continuous integration:
-
-```text
-.github/workflows/ci.yml
+docker compose up -d --build
 ```
 
-PyPI publishing:
+Then open `http://localhost:8012`.
+
+The production container uses Gunicorn, exposes a `/healthz` health endpoint, and persists the web SQLite database in the `mannah-data` volume.
+
+GitHub Actions publishes multi-architecture images to:
 
 ```text
-.github/workflows/publish.yml
+ghcr.io/iamrichmack111/pot-of-mannah
 ```
 
-The release pipeline is:
+## Food and measurement model
+
+The canonical food source stores nutrient values **per 100 grams**. A logged portion is calculated as:
 
 ```text
-          DEVELOPMENT
-               │
-               ▼
-           GIT COMMIT
-               │
-               ▼
-          GITHUB PUSH
-               │
-               ▼
-          CI + TESTING
-               │
-               ▼
-          VERSION TAG
-               │
-               ▼
-        GITHUB RELEASE
-               │
-               ▼
-        GITHUB ACTIONS
-               │
-               ▼
-     BUILD WHEEL + SDIST
-               │
-               ▼
-   PYPI TRUSTED PUBLISHING
-               │
-               ▼
- pip install pot-of-mannah
-```
-
-PyPI publishing uses **Trusted Publishing / OIDC**, avoiding the need to store a permanent PyPI API token in the repository.
-
----
-
-# 🏷️ Release Process
-
-Update the package version in:
-
-```text
-pyproject.toml
+portion nutrient = nutrient per 100 g × grams eaten ÷ 100
 ```
 
 Example:
 
-```toml
-version = "2.2.1"
+```text
+291 kcal / 100 g × 700 g = 2,037 kcal
 ```
 
-Commit and push:
+Food logs save both the source per-100 g values and a nutrient snapshot for the actual portion, keeping history stable even if source data changes later.
 
-```bash
-git add .
-git commit -m "Release Pot of Mannah v2.2.1"
-git push origin main
-```
+Sources supported by the web logger:
 
-Create the tag:
+- bundled Pot of Mannah food database
+- custom foods
+- USDA FoodData Central search
+- Open Food Facts packaged-food search
 
-```bash
-git tag -a v2.2.1 -m "Pot of Mannah v2.2.1"
-git push origin v2.2.1
-```
+## Nutrition intelligence
 
-Create the GitHub release:
+The Nutrition area separates:
 
-```bash
-gh release create v2.2.1 \
-  --title "Pot of Mannah v2.2.1" \
-  --generate-notes
-```
+- Overview
+- Missing nutrients
+- Macros
+- Vitamins
+- Minerals
+- Foods to add
 
-GitHub Actions then builds the distributions and publishes the release to PyPI.
+The Planner uses current nutrient gaps to surface food ideas for the next meal. The Progress area keeps long-term trends separate from daily nutrient needs.
 
----
+## Playwright screenshots + demo
 
-# 🧪 Testing
-
-Run all tests:
-
-```bash
-pytest -q
-```
-
-For a clean PyPI installation test:
-
-```bash
-python3 -m venv /tmp/pot-mannah-test
-source /tmp/pot-mannah-test/bin/activate
-
-python -m pip install --upgrade pip
-pip install pot-of-mannah
-
-pot-of-mannah
-```
-
----
-
-# 🧠 Design Principles
-
-### ⌨️ Keyboard First
-
-Core workflows are designed for terminal users and keyboard-driven navigation.
-
-### 🏠 Local First
-
-Tracking information is stored locally with SQLite.
-
-### 🧬 Nutrition Beyond Calories
-
-Vitamins and minerals are treated as first-class data alongside calories and macros.
-
-### 🧺 Pantry-Aware Planning
-
-Menu Maker works with food you actually place in Pantry rather than recommending arbitrary ingredients.
-
-### 💾 Separate Reference and User Data
-
-Packaged food and exercise databases remain separate from mutable personal tracking data.
-
-### 📸 Reproducible Nutrition History
-
-Logged food entries retain nutrient snapshots so historical reports remain consistent.
-
-### 📤 Portable Data
-
-Reports can be exported into standard formats rather than locking information inside the application.
-
-### 🔧 Automation Friendly
-
-JSON and CSV exports provide a foundation for future scripts, analytics, APIs, and integrations.
-
----
-
-# 🗺️ Roadmap
-
-Potential future improvements include:
-
-- 🍱 Named meal templates
-- 🏋️ Saved workout templates
-- 📈 7-day and 30-day trends
-- 🏆 Personal record detection
-- 📊 Training volume analysis
-- 🧬 Nutrient-source analysis
-- 🔍 "What am I missing?" food recommendations
-- ⚖️ Pantry-aware nutrition optimization
-- 🛒 Shopping-list generation
-- 📅 Calendar history
-- 📉 Historical nutrient trends
-- 📑 Additional report formats
-- 🔌 API integrations
-- ⌨️ Command palette
-
----
-
-# ⚠️ Disclaimer
-
-Pot of Mannah is a software and data-analysis project.
-
-Nutrition totals, nutrient targets, menu generation, exercise information, and related statistics are provided for informational and tracking purposes.
-
-The application is not intended to diagnose, treat, prevent, or provide individualized medical advice.
-
----
-
-# 📌 Current Version
+The deterministic demo pipeline lives in:
 
 ```text
-2.2.0
+scripts/seed_demo.py
+scripts/playwright_capture.py
+.github/workflows/playwright-media.yml
 ```
 
-Install:
+Run it locally:
 
 ```bash
-pip install pot-of-mannah
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-dev.txt
+python -m playwright install chromium
+
+export MANNAH_WEB_DB=/tmp/mannah-demo.db
+python scripts/seed_demo.py
+python web.py &
+python scripts/playwright_capture.py
 ```
 
-Run:
+Generated media:
+
+```text
+media/screenshots/01-today.png
+media/screenshots/02-diary.png
+media/screenshots/03-log-food.png
+media/screenshots/04-nutrition-missing.png
+media/screenshots/05-planner.png
+media/screenshots/06-progress.png
+media/screenshots/07-foods.png
+media/demo/pot-of-mannah-demo.webm
+media/demo/pot-of-mannah-demo.mp4
+```
+
+## CI/CD
+
+| Workflow | Purpose |
+|---|---|
+| `ci.yml` | Python tests, compile checks, food DB verification, Flask smoke test, Docker build |
+| `playwright-media.yml` | Real screenshots + recorded browser demo |
+| `container.yml` | Multi-architecture GHCR container publishing |
+| `release.yml` | GitHub Release from `v*` tags |
+| `publish.yml` | Existing PyPI trusted-publisher release |
+| `wiki.yml` | Syncs `wiki/*.md` to GitHub Wiki |
+
+## Wiki
+
+The source-of-truth pages live in `wiki/` and cover:
+
+- Web App
+- Nutrition Intelligence
+- Food Data and Measurements
+- Playwright Demo
+- Docker
+- CI/CD
+- Architecture
+- Development
+
+The Wiki workflow synchronizes them to the GitHub Wiki on main-branch changes.
+
+## TUI
+
+The original keyboard-first app is still available:
 
 ```bash
 pot-of-mannah
@@ -1150,22 +192,31 @@ or:
 mannah
 ```
 
----
+It includes food intelligence, pantry workflows, menu generation, exercise/workout tracking, notes, goals, favorites, and exports.
 
-# 👨‍💻 Author
+For the long-form original TUI documentation, see [`README_TUI_LEGACY.md`](README_TUI_LEGACY.md).
 
-Developed by **iamrichmack111**.
-
-Pot of Mannah is part of a broader collection of terminal-first software projects focused on local-first applications, data engineering, automation, developer tooling, and practical terminal interfaces.
-
----
-
-## ⭐ Support the Project
-
-If Pot of Mannah is useful to you, consider starring the repository.
+## Tests
 
 ```bash
-gh repo view iamrichmack111/pot-of-mannah --web
+pytest -q
+python -m compileall -q pot_of_mannah mannah_web scripts
 ```
 
-**Eat. Track. Train. Analyze. All from the terminal. 🍲**
+## Release
+
+v3 release helper:
+
+```bash
+bash scripts/release.sh 3.0.0
+```
+
+That pushes `main` and the annotated `v3.0.0` tag. Tag pushes trigger the GitHub Release and container workflows.
+
+## Roadmap
+
+See [`TASKS.md`](TASKS.md). If GitHub CLI is authenticated, the starter roadmap issues can be opened with:
+
+```bash
+bash scripts/create_roadmap_issues.sh
+```

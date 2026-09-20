@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Pot of Mannah — Nutrition by weight{% endblock %}
+{% block content %}
+<div class="landing-page">
+  <header class="landing-nav"><a class="brand" href="/"><span class="brand-seed">m</span><span><b>Pot of Mannah</b><small>Nutrition journal</small></span></a><div><button class="landing-theme" type="button" data-public-theme>◐ Theme</button><a href="{{url_for('login')}}">Log in</a><a class="btn primary" href="{{url_for('signup')}}">Create account</a></div></header>
+  <main class="landing-hero">
+    <section class="landing-copy"><span class="eyebrow">NUTRITION BY WEIGHT</span><h1>Log food without losing the plot.</h1><p>Search thousands of foods, enter exactly how many grams you ate, and keep meals, nutrient coverage, goals, and trends in separate, easy-to-find places.</p><div class="landing-actions"><a class="btn primary" href="{{url_for('signup')}}">Start your journal</a><span>No email required.</span></div><div class="landing-facts"><div><strong>{{'{:,}'.format(food_total)}}</strong><span>offline foods</span></div><div><strong>32</strong><span>nutrients</span></div><div><strong>100 g</strong><span>normalized data</span></div></div></section>
+    <section class="landing-preview"><div class="preview-toolbar">Today</div><div class="preview-hero"><div class="fake-ring"><div><strong>1,584</strong><small>kcal</small></div></div><div><span>Daily reference</span><b>2,200 kcal</b><p>616 remaining</p></div></div><div class="preview-macros"><div><span>Protein</span><b>126 g</b></div><div><span>Carbs</span><b>148 g</b></div><div><span>Fat</span><b>54 g</b></div></div><div class="preview-focus"><span>Needs attention</span><div><b>Magnesium</b><strong>50%</strong></div><i><em style="width:50%"></em></i><div><b>Fiber</b><strong>58%</strong></div><i><em style="width:58%"></em></i></div></section>
+  </main>
+</div>
+{% endblock %}

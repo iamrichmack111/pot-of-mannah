@@ -1,0 +1,17 @@
+services:
+  mannah:
+    build: .
+    image: pot-of-mannah:3.0.0
+    ports:
+      - "8012:8012"
+    environment:
+      SECRET_KEY: ${SECRET_KEY:-change-this-in-production}
+      MANNAH_ADMIN_USERNAME: ${MANNAH_ADMIN_USERNAME:-admin}
+      MANNAH_ADMIN_PASSWORD: ${MANNAH_ADMIN_PASSWORD:-MannahAdmin2026!}
+      USDA_API_KEY: ${USDA_API_KEY:-DEMO_KEY}
+    volumes:
+      - mannah-data:/data
+    restart: unless-stopped
+
+volumes:
+  mannah-data:

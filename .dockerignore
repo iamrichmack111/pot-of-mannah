@@ -1,0 +1,10 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+mannah_web.db
+media/demo/*.webm
+media/demo/*.mp4

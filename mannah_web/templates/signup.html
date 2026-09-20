@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Create account — Pot of Mannah{% endblock %}
+{% block content %}
+<div class="auth-page">
+  <section class="auth-art">
+    <a class="brand" href="/"><span class="brand-seed">m</span><span><b>Pot of Mannah</b><small>Nutrition journal</small></span></a>
+    <div class="auth-message"><span class="eyebrow">START SIMPLE</span><h1>Measure your food. Understand your day.</h1><p>Your account stays local to this app and does not require an email address.</p><div class="auth-mini-stats"><div><b>{{'{:,}'.format(food_total)}}</b><span>offline foods</span></div><div><b>32</b><span>nutrients</span></div><div><b>12</b><span>themes</span></div></div></div>
+  </section>
+  <section class="auth-form-side"><form method="post" class="auth-form"><span class="eyebrow">CREATE ACCOUNT</span><h2>Start your journal</h2><p>You can set your measurements and goals next.</p><label>Name<input name="name" autocomplete="name" required placeholder="Your name"></label><label>Username<input name="username" autocomplete="username" minlength="3" maxlength="32" pattern="[A-Za-z0-9_.-]+" required placeholder="your_username"></label><label>Password<input type="password" name="password" minlength="6" autocomplete="new-password" required placeholder="At least 6 characters"></label><button class="btn primary full" type="submit">Create account</button><span class="auth-switch">Already have an account? <a href="{{url_for('login')}}">Log in</a></span></form></section>
+</div>
+{% endblock %}

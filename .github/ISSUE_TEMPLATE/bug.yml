@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible problem in the web app, TUI, data, or container.
+title: "bug: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Area
+      options: [Web app, Nutrition data, Food search, Docker, TUI, CI/CD, Documentation]
+    validations: {required: true}
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open…\n2. Click…\n3. Observe…"
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes: {label: Expected behavior}
+  - type: textarea
+    id: environment
+    attributes: {label: Environment, placeholder: "OS, Python version, browser/container details"}

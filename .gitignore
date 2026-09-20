@@ -21,3 +21,8 @@ mannah.db
 
 # Reports
 pot-of-mannah-reports/
+
+# Generated local/demo artifacts
+mannah_web.db
+.playwright-video/
+media/demo/*.webm

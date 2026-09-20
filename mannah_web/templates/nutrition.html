@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block title %}Nutrition — Pot of Mannah{% endblock %}
+{% block content %}
+<div class="page-shell needs-page">
+  <header class="page-title-row reveal">
+    <div><span class="eyebrow">NUTRITION</span><h1>What your body still needs</h1><p>Use the tabs to separate your overview, missing nutrients, macros, vitamins, minerals, and food suggestions.</p></div>
+    <div class="page-actions"><form class="date-control"><input type="date" name="day" value="{{day}}" onchange="this.form.submit()"></form><a class="btn primary" href="{{url_for('planner',day=day)}}">Build next meal</a></div>
+  </header>
+
+  <nav class="section-tabs wide-tabs" data-tabset data-tabset-key="nutrition">
+    <button class="active" type="button" data-tab-target="overview"><i>◎</i><span>Overview</span></button>
+    <button type="button" data-tab-target="missing"><i>!</i><span>Missing</span>{% if gaps %}<b>{{gaps|length}}</b>{% endif %}</button>
+    <button type="button" data-tab-target="macros"><i>P</i><span>Macros</span></button>
+    <button type="button" data-tab-target="vitamins"><i>V</i><span>Vitamins</span></button>
+    <button type="button" data-tab-target="minerals"><i>M</i><span>Minerals</span></button>
+    <button type="button" data-tab-target="suggestions"><i>＋</i><span>Foods to add</span></button>
+  </nav>
+
+  <div class="tab-panel active" data-tab-panel="overview">
+    <section class="needs-hero reveal" data-tilt>
+      <div class="score-orbit" style="--score:{{score}}"><div><strong data-count="{{score}}">{{score}}</strong><span>nutrition score</span></div></div>
+      <div class="needs-hero-copy"><span class="eyebrow">TODAY'S COVERAGE</span><h2>{{met}} of {{total_targets}} tracked targets are at 90% or better.</h2><p>Your coverage score uses the daily references saved in your account. It is an informational tracker, not a diagnosis.</p><div class="needs-chips"><span>{{total.calories|round|int}} kcal</span><span>{{total.protein|round(1)}} g protein</span><span>{{total.fiber|round(1)}} g fiber</span>{% if sodium %}<span>{{sodium.raw_pct|round|int}}% sodium reference</span>{% endif %}</div></div>
+    </section>
+    <section class="section-block reveal tab-summary-grid">
+      <div><span class="eyebrow">LOWEST AREA</span>{% if gaps %}<h2>{{gaps[0].label}}</h2><p>{{gaps[0].raw_pct|round|int}}% of your daily reference. About {{gaps[0].missing|round(1)}} {{gaps[0].unit}} remains.</p><a href="#missing" data-open-tab="missing">See missing nutrients →</a>{% else %}<h2>Strong coverage</h2><p>No tracked nutrient is currently below its reference.</p>{% endif %}</div>
+      <div><span class="eyebrow">NEXT STEP</span><h2>Plan with your gaps</h2><p>Use the Planner to combine foods that target your lowest nutrients.</p><a href="{{url_for('planner',day=day)}}">Open meal planner →</a></div>
+    </section>
+  </div>
+
+  <div class="tab-panel" data-tab-panel="missing">
+    <section class="section-block reveal" id="missing">
+      <div class="section-heading"><div><span class="eyebrow">BIGGEST GAPS</span><h2>Focus here next</h2><p>Lowest daily coverage first.</p></div><a href="{{url_for('profile')}}">Edit references →</a></div>
+      {% if gap_cards %}<div class="gap-card-grid">
+        {% for card in gap_cards %}{% set s=card.gap %}
+        <article class="need-card reveal" style="--delay:{{loop.index0*60}}ms">
+          <div class="need-card-top"><div><span class="need-rank">0{{loop.index}}</span><div><h3>{{s.label}}</h3><p>{{s.value|round(1)}} of {{s.target}} {{s.unit}}</p></div></div><strong>{{s.raw_pct|round|int}}%</strong></div>
+          <div class="line-meter xl"><i class="{{s.state}}" style="width:{{s.pct}}%"></i></div>
+          <p class="missing-copy">About <b>{{s.missing|round(1)}} {{s.unit}}</b> remains to reach this reference.</p>
+          <a class="detail-link" href="{{url_for('nutrient_detail',key=s.key,day=day)}}">Explore {{s.label|lower}} →</a>
+        </article>
+        {% endfor %}
+      </div>{% else %}<div class="celebrate-panel"><span>✦</span><div><h3>Strong coverage today</h3><p>None of your tracked nutrients are below their references.</p></div></div>{% endif %}
+    </section>
+  </div>
+
+  <div class="tab-panel" data-tab-panel="macros">
+    <section class="section-block reveal">
+      <div class="section-heading"><div><span class="eyebrow">MACROS & CORE</span><h2>Energy and core nutrition</h2></div></div>
+      <div class="macro-tab-grid"><article><span>Calories</span><strong>{{total.calories|round|int}}</strong><small>kcal today{% if goal.calories %} · {{goal.calories|round|int}} reference{% endif %}</small></article><article><span>Protein</span><strong>{{total.protein|round(1)}} g</strong><small>{% if goal.protein %}{{((total.protein/goal.protein)*100)|round|int}}% of reference{% else %}logged today{% endif %}</small></article><article><span>Carbohydrates</span><strong>{{total.carbs|round(1)}} g</strong><small>logged today</small></article><article><span>Fat</span><strong>{{total.fat|round(1)}} g</strong><small>logged today</small></article><article><span>Fiber</span><strong>{{total.fiber|round(1)}} g</strong><small>{% if goal.fiber %}{{((total.fiber/goal.fiber)*100)|round|int}}% of reference{% else %}logged today{% endif %}</small></article></div>
+      <div class="nutrient-list clean tab-nutrient-list">{% for s in groups['Core'] %}<a class="nutrient-row interactive" href="{{url_for('nutrient_detail',key=s.key,day=day)}}"><div><b>{{s.label}}</b><span>{{s.value|round(1)}} / {{s.target}} {{s.unit}}</span></div><div class="line-meter"><i class="{{s.state}}" style="width:{{s.pct}}%"></i></div><strong class="{{s.state}}">{{s.raw_pct|round|int}}%</strong><em>›</em></a>{% endfor %}</div>
+    </section>
+  </div>
+
+  <div class="tab-panel" data-tab-panel="vitamins">
+    <section class="section-block reveal"><div class="section-heading"><div><span class="eyebrow">VITAMINS</span><h2>Vitamin coverage</h2><p>Tap any vitamin to see foods rich in it.</p></div></div><div class="nutrient-list clean tab-nutrient-list">{% for s in groups['Vitamins'] %}<a class="nutrient-row interactive" href="{{url_for('nutrient_detail',key=s.key,day=day)}}"><div><b>{{s.label}}</b><span>{{s.value|round(1)}} / {{s.target}} {{s.unit}}</span></div><div class="line-meter"><i class="{{s.state}}" style="width:{{s.pct}}%"></i></div><strong class="{{s.state}}">{{s.raw_pct|round|int}}%</strong><em>›</em></a>{% endfor %}</div></section>
+  </div>
+
+  <div class="tab-panel" data-tab-panel="minerals">
+    <section class="section-block reveal"><div class="section-heading"><div><span class="eyebrow">MINERALS</span><h2>Mineral coverage</h2><p>Calcium, iron, magnesium, potassium, zinc, selenium, and more.</p></div></div><div class="nutrient-list clean tab-nutrient-list">{% for s in groups['Minerals'] %}<a class="nutrient-row interactive" href="{{url_for('nutrient_detail',key=s.key,day=day)}}"><div><b>{{s.label}}</b><span>{{s.value|round(1)}} / {{s.target}} {{s.unit}}</span></div><div class="line-meter"><i class="{{s.state}}" style="width:{{s.pct}}%"></i></div><strong class="{{s.state}}">{{s.raw_pct|round|int}}%</strong><em>›</em></a>{% endfor %}</div></section>
+  </div>
+
+  <div class="tab-panel" data-tab-panel="suggestions">
+    <section class="section-block reveal"><div class="section-heading"><div><span class="eyebrow">FOODS TO ADD</span><h2>Foods matched to your gaps</h2><p>These come directly from the local food database and are ranked by the nutrients you are lowest on.</p></div><a href="{{url_for('planner',day=day)}}">Smart planner →</a></div>
+      {% if gap_cards %}<div class="suggestion-columns">{% for card in gap_cards %}<section><header><b>{{card.gap.label}}</b><span>{{card.gap.raw_pct|round|int}}% covered</span></header>{% for food in card.foods %}<a href="{{url_for('log_food')}}?pick={{food.source_key}}:{{food.source_id}}&day={{day}}"><div><strong>{{food.name}}</strong><small>{{food.category}}</small></div><span>{{food.focus_value|round(1)}} {{card.gap.unit}} / 100g</span><i>＋</i></a>{% endfor %}</section>{% endfor %}</div>{% else %}<div class="empty-quiet"><b>No urgent food suggestions.</b><p>Your tracked references are well covered today.</p></div>{% endif %}
+    </section>
+  </div>
+</div>
+{% endblock %}

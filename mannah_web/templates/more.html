@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}More — Pot of Mannah{% endblock %}
+{% block content %}
+<div class="page-shell more-page">
+  <header class="page-title-row reveal"><div><span class="eyebrow">MORE</span><h1>Everything else</h1><p>Secondary tools stay here so the mobile navigation remains simple.</p></div></header>
+  <div class="more-grid">
+    <a class="more-card reveal" href="{{url_for('planner')}}"><span>◈</span><div><h2>Meal Planner</h2><p>Build your next meal from today's biggest nutrient gaps.</p></div><i>→</i></a>
+    <a class="more-card reveal" href="{{url_for('progress')}}"><span>↗</span><div><h2>Progress</h2><p>30-day trends, consistency, achievements, and weight check-ins.</p></div><i>→</i></a>
+    <a class="more-card reveal" href="{{url_for('custom_food')}}"><span>◇</span><div><h2>Foods</h2><p>Favorites, imported products, and custom foods.</p></div><i>→</i></a>
+    <a class="more-card reveal" href="{{url_for('profile')}}"><span>○</span><div><h2>Account</h2><p>Measurements, references, themes, and security.</p></div><i>→</i></a>
+    {% if session.get('is_admin') %}<a class="more-card reveal" href="{{url_for('admin_dashboard')}}"><span>⌘</span><div><h2>Admin</h2><p>User counts, account management, and system statistics.</p></div><i>→</i></a>{% endif %}
+  </div>
+</div>
+{% endblock %}

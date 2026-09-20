@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}{{label}} — Pot of Mannah{% endblock %}
+{% block content %}
+<div class="page-shell nutrient-detail-page">
+  <header class="page-title-row reveal">
+    <div><a class="back-link" href="{{url_for('nutrition',day=day)}}">← Nutrition needs</a><span class="eyebrow">NUTRIENT EXPLORER</span><h1>{{label}}</h1><p>See your daily reference progress and foods in Pot of Mannah with higher {{label|lower}} values per 100 grams.</p></div>
+    <form class="date-control"><input type="date" name="day" value="{{day}}" onchange="this.form.submit()"></form>
+  </header>
+  {% if stat %}
+  <section class="nutrient-focus reveal"><div><span class="eyebrow">TODAY</span><strong data-count="{{stat.raw_pct|round|int}}">{{stat.raw_pct|round|int}}</strong><small>% of reference</small></div><div class="focus-copy"><h2>{{stat.value|round(1)}} / {{stat.target}} {{stat.unit}}</h2><div class="line-meter xl"><i class="{{stat.state}}" style="width:{{stat.pct}}%"></i></div>{% if key!='sodium' and stat.missing>0 %}<p>{{stat.missing|round(1)}} {{stat.unit}} remains to reach the saved daily reference.</p>{% elif key=='sodium' %}<p>Sodium is treated as an upper daily reference in this tracker.</p>{% else %}<p>This reference is covered for the selected day.</p>{% endif %}</div></section>
+  {% endif %}
+  {% if key!='sodium' %}
+  <section class="section-block reveal"><div class="section-heading"><div><span class="eyebrow">FOOD EXPLORER</span><h2>Foods rich in {{label|lower}}</h2><p>Values are from the local food database and shown per 100 g.</p></div></div>
+    <div class="food-explorer-grid">{% for food in foods %}<article class="food-explorer-card reveal" style="--delay:{{(loop.index0%6)*45}}ms"><div><span>{{food.category}}</span><h3>{{food.name}}</h3></div><strong>{{food.focus_value|round(1)}} <small>{{unit}}</small></strong><div class="food-micro"><span>{{food.calories|round|int}} kcal</span><span>{{food.protein|round(1)}}g P</span></div><a href="{{url_for('log_food')}}?pick={{food.source_key}}:{{food.source_id}}&day={{day}}">Log this food ＋</a></article>{% endfor %}</div>
+  </section>
+  {% endif %}
+</div>
+{% endblock %}

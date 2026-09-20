@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %}Log Food — Pot of Mannah{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <header class="page-title-row">
+    <div><span class="eyebrow">LOG FOOD</span><h1>Find it. Weigh it. Log it.</h1><p>Search a food, enter the exact grams you ate, then review the calculated portion.</p></div>
+    <a class="btn secondary" href="{{url_for('custom_food')}}">＋ Create custom food</a>
+  </header>
+
+  <div class="log-workspace">
+    <section class="food-finder clean-panel">
+      <div class="finder-tabs" data-finder-tabs><button class="active" data-tab="search">Search</button><button data-tab="favorites">Favorites <span>{{favorites|length}}</span></button><button data-tab="recent">Recent <span>{{recent|length}}</span></button></div>
+      <div class="finder-pane active" data-pane="search">
+        <div class="food-search-box"><span>⌕</span><input id="food-search" placeholder="Search chicken breast, rice, apple, cereal…" autocomplete="off" autofocus><button id="clear-search" type="button">×</button></div>
+        <div class="search-meta"><span><b>{{'{:,}'.format(food_total)}}</b> foods available offline</span><button id="global-search" type="button">Search USDA + packaged foods</button></div>
+        <div id="search-results" class="food-results"><div class="search-empty"><span>⌕</span><b>Search for a food</b><p>Local foods appear first. Use global search only when you need it.</p></div></div>
+      </div>
+      <div class="finder-pane" data-pane="favorites">{% if favorites %}<div class="library-grid">{% for f in favorites %}<button class="library-food" type="button" data-food='{{f|tojson|forceescape}}'><span>★</span><div><b>{{f.name}}</b><small>{{f.category}} · {{f.calories|round|int}} kcal / 100 g</small></div><i>＋</i></button>{% endfor %}</div>{% else %}<div class="search-empty"><span>☆</span><b>No favorites yet</b><p>Choose a food and tap the star to save it.</p></div>{% endif %}</div>
+      <div class="finder-pane" data-pane="recent">{% if recent %}<div class="library-grid">{% for f in recent %}<button class="library-food" type="button" data-food='{{f|tojson|forceescape}}'><span>↻</span><div><b>{{f.name}}</b><small>{{f.category}} · {{f.calories|round|int}} kcal / 100 g</small></div><i>＋</i></button>{% endfor %}</div>{% else %}<div class="search-empty"><span>↻</span><b>No recent foods</b><p>Foods you log will appear here.</p></div>{% endif %}</div>
+    </section>
+
+    <aside class="portion-panel clean-panel" id="log-pane">
+      <div id="food-placeholder" class="portion-empty"><span>100 g</span><h2>Select a food</h2><p>Its source nutrition will appear here before you log anything.</p></div>
+      <form id="log-form" method="post" class="hidden">
+        <input type="hidden" name="source_key" id="source-key"><input type="hidden" name="source_id" id="source-id">
+        <div class="selected-food-head"><div><span id="food-source" class="source-tag"></span><h2 id="food-name"></h2><p id="food-category"></p></div><button id="favorite-food" class="favorite-btn" type="button">☆</button></div>
+        <div class="source-macros"><div><span>Calories</span><strong id="n-calories">0</strong><small>kcal</small></div><div><span>Protein</span><strong id="n-protein">0</strong><small>g</small></div><div><span>Carbs</span><strong id="n-carbs">0</strong><small>g</small></div><div><span>Fat</span><strong id="n-fat">0</strong><small>g</small></div></div>
+        <p class="source-caption">Source values per 100 grams</p>
+        <div class="portion-input"><label>How much did you eat?</label><div class="gram-input"><input name="grams" id="grams" type="number" min="0.1" step="0.1" inputmode="decimal" placeholder="0" required><span>g</span></div><div class="gram-sub"><span id="ounce-readout">0.00 oz</span><span>saved in grams</span></div><div class="weight-chips"><button type="button" data-g="28.3495">1 oz</button><button type="button" data-g="56.699">2 oz</button><button type="button" data-g="100">100 g</button><button type="button" data-g="113.398">4 oz</button><button type="button" data-g="200">200 g</button><button type="button" data-g="226.796">8 oz</button></div></div>
+        <div class="portion-preview"><span>Your portion</span><strong><b id="portion-kcal">0</b> kcal</strong><p id="math-line">Nutrition per 100 g × grams ÷ 100</p><div><span id="portion-protein">0g protein</span><span id="portion-carbs">0g carbs</span><span id="portion-fat">0g fat</span></div></div>
+        <div class="log-fields"><label>Meal<select name="meal">{% for m in ['Breakfast','Lunch','Dinner','Snack','Meal'] %}<option {% if m==default_meal %}selected{% endif %}>{{m}}</option>{% endfor %}</select></label><label>Date<input type="date" name="eaten_on" value="{{default_day}}"></label></div>
+        <button class="btn primary full" id="save-food" disabled>Log this food</button>
+      </form>
+    </aside>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}<script>window.MannahLogger=true;</script>{% endblock %}

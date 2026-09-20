@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}Today — Pot of Mannah{% endblock %}
+{% block content %}
+<div class="page-shell narrow">
+  <header class="page-title-row">
+    <div><span class="eyebrow">TODAY</span><h1>{% if day==today_iso %}Your day at a glance{% else %}{{day}}{% endif %}</h1><p>See the essentials first. Details live in Diary and Nutrition.</p></div>
+    <div class="page-actions"><form class="date-control"><input type="date" name="day" value="{{day}}" onchange="this.form.submit()"></form><a class="btn primary" href="{{url_for('log_food',day=day)}}">＋ Log food</a></div>
+  </header>
+
+  <section class="today-hero">
+    <div class="energy-block">
+      <div class="energy-ring" style="--p:{{[calpct,100]|min}}%"><div><strong>{{total.calories|round|int}}</strong><span>kcal eaten</span></div></div>
+      <div class="energy-copy">
+        <span class="eyebrow">ENERGY</span>
+        {% if goal.calories %}<h2>{{[goal.calories-total.calories,0]|max|round|int}} kcal remaining</h2><p>{{goal.calories|round|int}} kcal daily reference · {{calpct|round|int}}% logged</p>{% else %}<h2>Set your calorie reference</h2><p>Add your age and measurements in Account.</p>{% endif %}
+        <div class="streak-pill">🔥 {{streak}} day logging streak</div>
+      </div>
+    </div>
+    <div class="macro-summary">
+      <div><span>Protein</span><strong>{{total.protein|round(1)}} g</strong>{% if goal.protein %}<small>{{((total.protein/goal.protein*100) if goal.protein else 0)|round|int}}% of goal</small>{% endif %}</div>
+      <div><span>Carbs</span><strong>{{total.carbs|round(1)}} g</strong><small>today</small></div>
+      <div><span>Fat</span><strong>{{total.fat|round(1)}} g</strong><small>today</small></div>
+      <div><span>Fiber</span><strong>{{total.fiber|round(1)}} g</strong>{% if goal.fiber %}<small>{{((total.fiber/goal.fiber*100) if goal.fiber else 0)|round|int}}% of goal</small>{% endif %}</div>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading"><div><span class="eyebrow">CHECK-IN</span><h2>What needs attention</h2></div><a href="{{url_for('nutrition',day=day)}}">See what you need →</a></div>
+    {% if missing %}
+    <div class="gap-list">
+      {% for s in missing %}<div class="gap-row"><div><b>{{s.label}}</b><span>{{s.value|round(1)}} / {{s.target}} {{s.unit}}</span></div><div class="line-meter"><i style="width:{{s.pct}}%"></i></div><strong>{{s.raw_pct|round|int}}%</strong></div>{% endfor %}
+    </div>
+    {% else %}<div class="good-message"><span>✓</span><div><b>Your tracked nutrients are in a strong range.</b><p>Open Nutrition for the full breakdown.</p></div></div>{% endif %}
+  </section>
+
+  <div class="home-columns">
+    <section class="section-block">
+      <div class="section-heading"><div><span class="eyebrow">RECENT</span><h2>Latest entries</h2></div><a href="{{url_for('diary',day=day)}}">Open diary →</a></div>
+      {% if recent_entries %}<div class="recent-entry-list">
+        {% for e in recent_entries %}<div class="recent-entry"><div class="food-initial">{{e.row.description[:1]|upper}}</div><div><b>{{e.row.description}}</b><span>{{e.row.meal}} · {{e.row.grams|round(1)}} g</span></div><strong>{{e.nutrients.calories|round|int}} <small>kcal</small></strong></div>{% endfor %}
+      </div>{% else %}<div class="empty-quiet"><b>No food logged yet.</b><p>Your latest entries will appear here.</p><a class="btn secondary" href="{{url_for('log_food',day=day)}}">Log your first food</a></div>{% endif %}
+    </section>
+
+    <section class="section-block quick-section">
+      <div class="section-heading"><div><span class="eyebrow">QUICK ADD</span><h2>Foods you use often</h2></div></div>
+      <div class="quick-foods">
+        {% for f in favorites %}<a href="{{url_for('log_food')}}?pick={{f.source_key}}:{{f.source_id}}&day={{day}}"><span>★</span><div><b>{{f.name}}</b><small>{{f.calories|round|int}} kcal / 100 g</small></div><i>＋</i></a>{% endfor %}
+        {% if not favorites %}{% for f in recent %}<a href="{{url_for('log_food')}}?pick={{f.source_key}}:{{f.source_id}}&day={{day}}"><span>↻</span><div><b>{{f.name}}</b><small>{{f.calories|round|int}} kcal / 100 g</small></div><i>＋</i></a>{% endfor %}{% endif %}
+      </div>
+      {% if not favorites and not recent %}<p class="muted">Favorite foods or log a few meals and quick choices will appear here.</p>{% endif %}
+      <div class="water-mini"><div><span>Water</span><b>{{water|round|int}} / {{water_goal|round|int}} ml</b></div><div class="line-meter"><i style="width:{{water_pct}}%"></i></div><a href="{{url_for('diary',day=day)}}">Update in Diary</a></div>
+    </section>
+  </div>
+</div>
+{% endblock %}

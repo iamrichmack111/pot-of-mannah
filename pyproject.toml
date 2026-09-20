@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pot-of-mannah"
-version = "2.2.0"
-description = "Terminal nutrition and training intelligence over indexed SQLite datasets"
+version = "3.0.0"
+description = "Local-first nutrition intelligence with a dark Flask web app and Textual TUI"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["textual>=0.70", "platformdirs>=4.0"]
+dependencies = ["textual>=0.70", "platformdirs>=4.0", "Flask>=3.0", "Werkzeug>=3.0", "requests>=2.31"]
 keywords = ["textual", "tui", "nutrition", "fitness", "sqlite", "flask"]
 classifiers = [
   "Programming Language :: Python :: 3",
@@ -17,19 +17,22 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "build>=1"]
+web = ["gunicorn>=22"]
+dev = ["pytest>=8", "build>=1", "playwright>=1.50"]
 api = ["Flask>=2.2", "flask-limiter>=3", "gunicorn>=21"]
 
 [project.scripts]
 pot-of-mannah = "pot_of_mannah.tui:main"
 mannah = "pot_of_mannah.tui:main"
+mannah-web = "mannah_web.app:main"
 
 [tool.setuptools.package-data]
 pot_of_mannah = ["data/*.db"]
+mannah_web = ["templates/*.html", "static/*.css", "static/*.js"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
 [tool.setuptools.packages.find]
-include = ["pot_of_mannah*"]
+include = ["pot_of_mannah*", "mannah_web*"]
 exclude = ["DATA*", "POT-OF-MANNAH-API*", "tests*", "scripts*"]

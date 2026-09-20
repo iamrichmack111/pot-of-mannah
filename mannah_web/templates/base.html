@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#070a0c">
+  <title>{% block title %}Pot of Mannah{% endblock %}</title>
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('mannah-theme')||'midnight'}catch(e){}</script>
+  <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+<body class="{% if session.get('user_id') %}app-body{% else %}public-body{% endif %}">
+<div class="ambient-field" aria-hidden="true"><i></i><i></i><i></i></div>
+{% if session.get('user_id') %}
+<header class="appbar tabbed-shell">
+  <div class="appbar-inner">
+    <a class="brand" href="{{url_for('dashboard')}}"><span class="brand-seed">m</span><span><b>Pot of Mannah</b><small>nutrition intelligence</small></span></a>
+    <div class="appbar-spacer"></div>
+    <div class="appbar-actions">
+      <button class="round-btn" type="button" data-theme-open aria-label="Change theme">◐</button>
+      <a class="avatar-btn {{'active' if request.endpoint in ['profile','admin_dashboard'] else ''}}" href="{{url_for('profile')}}" title="Account">{{session.get('name','U')[:1]|upper}}</a>
+    </div>
+  </div>
+  <div class="primary-tabs-wrap">
+    <nav class="primary-tabs" aria-label="App sections">
+      <a class="{{'active' if request.endpoint=='dashboard' else ''}}" href="{{url_for('dashboard')}}"><i>⌂</i><span><b>Today</b><small>Summary</small></span></a>
+      <a class="{{'active' if request.endpoint=='diary' else ''}}" href="{{url_for('diary')}}"><i>≡</i><span><b>Diary</b><small>Meals</small></span></a>
+      <a class="log-tab {{'active' if request.endpoint=='log_food' else ''}}" href="{{url_for('log_food')}}"><i>＋</i><span><b>Log Food</b><small>Add grams</small></span></a>
+      <a class="{{'active' if request.endpoint in ['nutrition','nutrient_detail'] else ''}}" href="{{url_for('nutrition')}}"><i>◎</i><span><b>Nutrition</b><small>What you need</small></span></a>
+      <a class="{{'active' if request.endpoint=='planner' else ''}}" href="{{url_for('planner')}}"><i>◇</i><span><b>Planner</b><small>Next meal</small></span></a>
+      <a class="{{'active' if request.endpoint=='progress' else ''}}" href="{{url_for('progress')}}"><i>↗</i><span><b>Progress</b><small>Trends</small></span></a>
+      <a class="{{'active' if request.endpoint in ['custom_food','delete_custom_food'] else ''}}" href="{{url_for('custom_food')}}"><i>▦</i><span><b>Foods</b><small>Library</small></span></a>
+    </nav>
+  </div>
+</header>
+<main class="app-main motion-page">
+{% else %}
+<main class="public-main motion-page">
+{% endif %}
+
+{% with messages=get_flashed_messages(with_categories=true) %}{% if messages %}
+<div class="flash-stack">{% for category,message in messages %}<div class="flash {{category}}"><span>{{message}}</span><button type="button">×</button></div>{% endfor %}</div>
+{% endif %}{% endwith %}
+
+{% block content %}{% endblock %}
+
+{% if session.get('user_id') %}
+</main>
+
+<div class="theme-sheet" id="theme-sheet" aria-hidden="true">
+  <button class="theme-backdrop" type="button" data-theme-close aria-label="Close"></button>
+  <section class="theme-panel" role="dialog" aria-modal="true">
+    <div class="theme-head"><div><span class="eyebrow">DARK THEMES</span><h2>Choose your atmosphere</h2><p>Same layout. Twelve dark palettes.</p></div><button class="round-btn" type="button" data-theme-close>×</button></div>
+    <div class="theme-grid">
+      {% for value,name,desc in [('linen','Obsidian','warm gold'),('midnight','Midnight','electric blue'),('forest','Forest','deep green'),('ocean','Abyss','deep cyan'),('berry','Blackberry','dark magenta'),('citrus','Neon Lime','acid green'),('lavender','Amethyst','deep violet'),('sand','Bronze','burnt copper'),('slate','Gunmetal','cool steel'),('rose','Dark Rose','muted crimson'),('mint','Night Mint','dark teal'),('contrast','High Contrast','pure black')] %}
+      <button class="theme-card" type="button" data-theme="{{value}}"><span class="swatch {{value}}"></span><span><b>{{name}}</b><small>{{desc}}</small></span><i>✓</i></button>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% else %}
+</main>
+{% endif %}
+<script src="{{url_for('static',filename='app.js')}}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
