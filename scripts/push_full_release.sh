@@ -35,7 +35,7 @@ bash scripts/create_roadmap_issues.sh "$REPO" || true
 
 # Wait for the media workflow created by the main push, then absorb the bot's media commit.
 sleep 5
-RUN_ID="$(gh run list -R "$REPO" --workflow playwright-media.yml --branch main --limit 1 --json databaseId --jq '.[0].databaseId // empty')"
+RUN_ID="$(gh run list -R "$REPO" --workflow playwright-media.yml --limit 1 --json databaseId --jq '.[0].databaseId // empty')"
 if [[ -n "$RUN_ID" ]]; then
   echo "Watching Playwright Media run $RUN_ID"
   gh run watch -R "$REPO" "$RUN_ID" --exit-status
@@ -44,7 +44,7 @@ else
   echo "No Playwright Media run found; triggering one."
   gh workflow run -R "$REPO" playwright-media.yml --ref main
   sleep 5
-  RUN_ID="$(gh run list -R "$REPO" --workflow playwright-media.yml --branch main --limit 1 --json databaseId --jq '.[0].databaseId // empty')"
+  RUN_ID="$(gh run list -R "$REPO" --workflow playwright-media.yml --limit 1 --json databaseId --jq '.[0].databaseId // empty')"
   [[ -n "$RUN_ID" ]] && gh run watch -R "$REPO" "$RUN_ID" --exit-status
   git pull --ff-only origin main
 fi
