@@ -61,14 +61,3 @@ jobs:
             media/screenshots/*.png
             media/demo/*.webm
             media/demo/*.mp4
-      - name: Commit generated media
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A media
-          if git diff --cached --quiet; then
-            echo "Media is already current."
-          else
-            git commit -m "docs: refresh Playwright screenshots and demo [skip ci]"
-            git push
-          fi
